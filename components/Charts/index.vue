@@ -20,19 +20,19 @@ const setChartData = () =>  {
             {
                 type: 'bar',
                 label: 'Dataset 1',
-                backgroundColor: documentStyle.getPropertyValue('gray'),
+                backgroundColor: ('#3f3f3f'),
                 data: [50, 25, 12, 48, 90, 76, 42, 25, 12, 48, 90, 98]
             },
             {
                 type: 'bar',
                 label: 'Dataset 2',
-                backgroundColor: documentStyle.getPropertyValue('grey'),
+                backgroundColor: ('#2c2c2c'),
                 data: [21, 84, 24, 75, 37, 65, 34, 75, 37, 65, 34, 65]
             },
             {
                 type: 'bar',
                 label: 'Dataset 3',
-                backgroundColor: documentStyle.getPropertyValue('lightgray'),
+                backgroundColor: ('#191919'),
                 data: [41, 52, 24, 74, 23, 21, 32, 41, 52, 24, 74, 23]
             }
         ]

@@ -56,11 +56,4 @@
 import { Icon } from "@iconify/vue";
 import { ref } from "vue";
 import DatePicker from "primevue/datepicker";
-import SelectButton from "primevue/selectbutton";
-const size = ref({ label: "Normal", value: "null" });
-const sizeOptions = ref([
-  { label: "Monthly", value: "small" },
-  { label: "Weekly", value: "null" },
-  { label: "Daily", value: "large" },
-]);
 </script>
