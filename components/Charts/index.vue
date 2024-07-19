@@ -1,5 +1,5 @@
 <template>
-    <Chart type="bar" :data="chartData" :options="chartOptions" class="h-[30rem]"  />
+    <Chart type="bar" :data="chartData" :options="chartOptions" class="max-w-4xl h-[30rem]"  />
 </template>
 <script setup>
 import Chart from 'primevue/chart';

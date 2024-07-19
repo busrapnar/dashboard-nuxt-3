@@ -45,7 +45,7 @@
       </div>
       <div class="flex xl:flex-row justify-between gap-4 flex-col">
         <div class="xl:w-3/4 w-full border rounded-lg p-4">
-            <h1>Transactions</h1>
+          <h1>Transactions</h1>
           <Transactions />
         </div>
         <div class="xl:w-1/4 w-full border rounded-lg p-4">Wallet</div>
