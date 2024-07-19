@@ -19,19 +19,20 @@ const setChartData = () =>  {
         datasets: [
             {
                 type: 'bar',
-                label: 'Dataset 1',
+                label: 'Personal Wallet',
                 backgroundColor: ('#989898'),
+                borderRadius: '4px',
                 data: [50, 25, 12, 48, 90, 76, 42, 25, 12, 48, 90, 98]
             },
             {
                 type: 'bar',
-                label: 'Dataset 2',
+                label: 'Corporate Wallet',
                 backgroundColor: ('#d3d3d3'),
                 data: [21, 84, 24, 75, 37, 65, 34, 75, 37, 65, 34, 65]
             },
             {
                 type: 'bar',
-                label: 'Dataset 3',
+                label: 'Investment Wallet',
                 backgroundColor: ('#e9e9e9'),
                 data: [41, 52, 24, 74, 23, 21, 32, 41, 52, 24, 74, 23]
             }

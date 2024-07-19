@@ -43,11 +43,12 @@
       <div class="border rounded shadow-sm p-4">
         <Charts />
       </div>
-      <div class="flex lg:flex-row justify-between gap-4 flex-col">
-        <div class="w-3/4 border rounded-lg p-4">
+      <div class="flex xl:flex-row justify-between gap-4 flex-col">
+        <div class="xl:w-3/4 w-full border rounded-lg p-4">
+            <h1>Transactions</h1>
           <Transactions />
         </div>
-        <div class="w-1/4 border rounded-lg p-4">Wallet</div>
+        <div class="xl:w-1/4 w-full border rounded-lg p-4">Wallet</div>
       </div>
     </div>
   </div>

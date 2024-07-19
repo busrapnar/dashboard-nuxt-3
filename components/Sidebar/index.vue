@@ -1,6 +1,6 @@
 <template>
     <div class="relative h-full rounded-lg shadow-lg bg-gray-100">
-        <div class="flex flex-col lg:hidden z-50 gap-8 h-full w-full p-4">
+        <div class="flex flex-col xlhidden z-50 gap-8 h-full w-full p-4">
             <Logo />
             <div>
                 <a :href="item.path" v-for="(item, index) in items" :key="index"
@@ -11,7 +11,7 @@
             </div>
             
         </div>
-        <div class="hidden lg:flex w-[250px] flex-col justify-between h-full">
+        <div class="hidden xlflex w-[250px] flex-col justify-between h-full">
             <SidebarMenu />
             <div class="flex flex-col gap-3 items-start px-4">
                 <a href=""
